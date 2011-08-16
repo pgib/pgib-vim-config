@@ -2,7 +2,7 @@
 
 == Step 1
 
-  bash < <(curl -s http://pgib.me/install/vim)
+	sh < <(curl -s http://pgib.me/install/vim)
 
 == Step 2
 
