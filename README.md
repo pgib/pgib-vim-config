@@ -2,7 +2,7 @@
 
 ## Step 1
 
-	sh < <(curl -s http://pgib.me/install/vim)
+	curl -s http://pgib.me/install/vim | sh
 
 ## Step 2
 
