@@ -1,12 +1,15 @@
-# Patrick's Quick vim config
-
-## Step 1
+# Quick 'n easy Installation
 
     curl -s https://pgib.me/install/vim | sh
 
-## Step 2
+# Neck-beard installation
 
-There is no step 2!
+    cd ~
+    git clone https://github.com/pgib/pgib-vim-config.git .vim
+    cd .vim
+    git submodule update --init
+    cd ..
+    ln -s .vim/vimrc.conf .vimrc
 
 # Updating
 
