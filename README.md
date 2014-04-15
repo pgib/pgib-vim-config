@@ -2,11 +2,20 @@
 
 ## Step 1
 
-    curl -s http://pgib.me/install/vim | sh
+    curl -s https://pgib.me/install/vim | sh
 
 ## Step 2
 
 There is no step 2!
+
+# Updating
+
+Once you've installed as per above, you can update like so:
+
+```sh
+cd ~/.vim
+git pull && git submodule update --init
+```
 
 # Notable Features
 
