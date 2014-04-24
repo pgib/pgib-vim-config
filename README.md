@@ -57,6 +57,7 @@ Key-combo   | Description
 F1          | Line number toggle
 F2          | Paste-mode (disables auto intent/comment) toggle
 F4          | Close buffer (`:close`)
+F5          | Toggle between relative and regular line numbers
 Ctrl-n      | Next buffer
 Ctrl-p      | Previous buffer
 n           | Next match from search and pulse the cursor line
