@@ -44,7 +44,7 @@ Want to make changes to your `~/.vimrc`? Easy: `<Leader>ev`:
 
 ![easily edit config](https://cloud.githubusercontent.com/assets/13967/2688583/ef703a08-c2b0-11e3-9582-4993366b0941.png)
 
-Then apply the changes with `<Leader>sv`. (Shout-out to @flyingoctopus for this gem.)
+Then apply the changes with `<Leader>sv`. (Shout-out to [@flyingoctopus](https://github.com/flyingoctopus/) for this gem.)
 
 --------------------
 
@@ -52,6 +52,7 @@ Other highlights:
 
 Key-combo   | Description
 ----------- | -----------
+`<Leader>`  | The Vim [Leader key](http://usevim.com/2012/07/20/vim101-leader/) is `,`
 `<Leader>c` | Copy to system clipboard (Mac OS X only)
 `<Leader>v` | Paste from system clipboard (Mac OS X only)
 F1          | Line number toggle
