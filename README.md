@@ -50,17 +50,18 @@ Then apply the changes with `<Leader>sv`. (Shout-out to [@flyingoctopus](https:/
 
 Other highlights:
 
-Key-combo   | Description
------------ | -----------
-`<Leader>`  | The Vim [Leader key](http://usevim.com/2012/07/20/vim101-leader/) is `,`
-`<Leader>c` | Copy to system clipboard (Mac OS X only)
-`<Leader>v` | Paste from system clipboard (Mac OS X only)
-F1          | Line number toggle
-F2          | Paste-mode (disables auto intent/comment) toggle
-F4          | Close buffer (`:close`)
-F5          | Toggle between relative and regular line numbers
-Ctrl-n      | Next buffer
-Ctrl-p      | Previous buffer
-n           | Next match from search and pulse the cursor line
-N           | Previous match from search and pulse the cursor line
-
+Key-combo    | Description
+------------ | -----------
+`<Leader>`   | The Vim [Leader key](http://usevim.com/2012/07/20/vim101-leader/) is `,`
+`<Leader>c`  | Copy to system clipboard (Mac OS X only)
+`<Leader>v`  | Paste from system clipboard (Mac OS X only)
+F1           | Line number toggle
+F2           | Paste-mode (disables auto intent/comment) toggle
+F4           | Close buffer (`:close`)
+F5           | Toggle between relative and regular line numbers
+Ctrl-n       | Next buffer
+Ctrl-p       | Previous buffer
+n            | Next match from search and pulse the cursor line
+N            | Previous match from search and pulse the cursor line
+`<Leader>`cc | Comment the line/selection
+`<Leader>`cu | Uncomment the line/selection
