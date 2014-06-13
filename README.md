@@ -65,3 +65,4 @@ n            | Next match from search and pulse the cursor line
 N            | Previous match from search and pulse the cursor line
 `<Leader>`cc | Comment the line/selection
 `<Leader>`cu | Uncomment the line/selection
+Ctrl-w o     | Zoom in and out of the current window
