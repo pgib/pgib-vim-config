@@ -66,3 +66,4 @@ N            | Previous match from search and pulse the cursor line
 `<Leader>`cc | Comment the line/selection
 `<Leader>`cu | Uncomment the line/selection
 Ctrl-w o     | Zoom in and out of the current window
+`<Leader>`A  | Search the Git root for the current word or visual selection using [vim-ackmore](https://github.com/jordansissel/vim-ackmore)
