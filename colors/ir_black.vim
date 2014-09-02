@@ -8,8 +8,8 @@
 " Note, x:x:x are RGB values
 "
 "  normal: #f6f3e8
-" 
-"  string: #A8FF60  168:255:96                   
+"
+"  string: #A8FF60  168:255:96
 "    string inner (punc, code, etc): #00A0A0  0:160:160
 "  number: #FF73FD  255:115:253                 
 "  comments: #7C7C7C  124:124:124
@@ -208,11 +208,17 @@ hi link javaScriptNumber      Number
 
 
 " Special for Python
-"hi  link pythonEscape         Keyword      
+"hi  link pythonEscape         Keyword
 
 
 " Special for CSharp
-hi  link csXmlTag             Keyword      
+hi  link csXmlTag             Keyword
 
+
+" Spell-checking
+hi SpellLocal ctermfg=14  ctermbg=0
+hi SpellBad   ctermfg=197 ctermbg=NONE
+hi SpellCap   ctermfg=12  ctermbg=0
+hi SpellRare  ctermfg=13  ctermbg=0
 
 " Special for PHP

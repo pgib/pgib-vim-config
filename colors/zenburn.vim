@@ -245,7 +245,8 @@ hi VisualNOS       guifg=#333333 guibg=#f18c96 gui=bold,underline
 hi WarningMsg      guifg=#ffffff guibg=#333333 gui=bold
 hi WildMenu        guibg=#2c302d guifg=#cbecd0 gui=underline
 
-hi SpellBad   guisp=#bc6c4c guifg=#dc8c6c
+"hi SpellBad   guisp=#bc6c4c guifg=#dc8c6c
+hi SpellBad   guisp=#000000 guifg=#dc8c6c
 hi SpellCap   guisp=#6c6c9c guifg=#8c8cbc
 hi SpellRare  guisp=#bc6c9c guifg=#bc8cbc
 hi SpellLocal guisp=#7cac7c guifg=#9ccc9c
@@ -307,10 +308,10 @@ if &t_Co > 255
     hi WildMenu        ctermbg=236   ctermfg=194     cterm=bold
 
     " spellchecking, always "bright" background
-    hi SpellLocal ctermfg=14  ctermbg=237
-    hi SpellBad   ctermfg=9   ctermbg=237
-    hi SpellCap   ctermfg=12  ctermbg=237
-    hi SpellRare  ctermfg=13  ctermbg=237
+    hi SpellLocal ctermfg=14  ctermbg=0
+    hi SpellBad   ctermfg=9   ctermbg=0
+    hi SpellCap   ctermfg=12  ctermbg=0
+    hi SpellRare  ctermfg=13  ctermbg=0
 
     " pmenu
     hi PMenu      ctermfg=248  ctermbg=0
