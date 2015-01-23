@@ -81,7 +81,7 @@ hi Folded           guifg=#a0a8b0     guibg=#384048     gui=NONE      ctermfg=NO
 hi Title            guifg=#f6f3e8     guibg=NONE        gui=bold      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi Visual           guifg=NONE        guibg=#262D51     gui=NONE      ctermfg=NONE        ctermbg=darkgray    cterm=NONE
 
-hi SpecialKey       guifg=#808080     guibg=#343434     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
+hi SpecialKey       guifg=#ff0000     guibg=#343434     gui=NONE      ctermfg=197        ctermbg=NONE        cterm=NONE
 
 hi WildMenu         guifg=green       guibg=yellow      gui=NONE      ctermfg=black       ctermbg=yellow      cterm=NONE
 hi PmenuSbar        guifg=black       guibg=white       gui=NONE      ctermfg=black       ctermbg=white       cterm=NONE
@@ -105,12 +105,12 @@ endif
 
 " Syntax highlighting
 hi Comment          guifg=#7C7C7C     guibg=NONE        gui=NONE      ctermfg=darkgray    ctermbg=NONE        cterm=NONE
-hi String           guifg=#A8FF60     guibg=NONE        gui=NONE      ctermfg=222       ctermbg=NONE        cterm=NONE
+hi String           guifg=#A8FF60     guibg=NONE        gui=NONE      ctermfg=215       ctermbg=NONE        cterm=NONE
 hi Number           guifg=#FF73FD     guibg=NONE        gui=NONE      ctermfg=139     ctermbg=NONE        cterm=NONE
 
 hi Keyword          guifg=#0294c4     guibg=NONE        gui=NONE      ctermfg=38        ctermbg=NONE        cterm=NONE
 hi PreProc          guifg=#0294c4     guibg=NONE        gui=NONE      ctermfg=67        ctermbg=NONE        cterm=NONE
-hi Conditional      guifg=#6699CC     guibg=NONE        gui=NONE      ctermfg=186        ctermbg=NONE        cterm=NONE  " if else end
+hi Conditional      guifg=#6699CC     guibg=NONE        gui=NONE      ctermfg=49        ctermbg=NONE        cterm=NONE  " if else end
 
 hi Todo             guifg=#8f8f8f     guibg=NONE        gui=NONE      ctermfg=203         ctermbg=NONE        cterm=NONE
 hi Constant         guifg=#99CC99     guibg=NONE        gui=NONE      ctermfg=116        ctermbg=NONE        cterm=NONE
@@ -222,3 +222,6 @@ hi SpellCap   ctermfg=12  ctermbg=0
 hi SpellRare  ctermfg=13  ctermbg=0
 
 " Special for PHP
+
+" Patrick Add-ons
+hi TrailingSpace ctermfg=197
