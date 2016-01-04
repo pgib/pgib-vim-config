@@ -43,3 +43,15 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/vim-jsx"]
+	path = bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
+[submodule "bundle/vim-rubocop"]
+	path = bundle/vim-rubocop
+	url = https://github.com/ngmy/vim-rubocop.git
+[submodule "bundle/vim-es6"]
+	path = bundle/vim-es6
+	url = https://github.com/isRuslan/vim-es6.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
