@@ -52,7 +52,7 @@ Then apply the changes with `<Leader>sv`. (Shout-out to [@flyingoctopus](https:/
 
 Key-combo    | Description
 ------------ | -----------
-`<Leader>`   | The Vim [Leader key](http://usevim.com/2012/07/20/vim101-leader/) is `,`
+`<Leader>`   | The Vim [Leader key](https://medium.com/usevim/vim-101-what-is-the-leader-key-f2f5c1fa610f) is `,`
 `<Leader>c`  | Copy to system clipboard (Mac OS X only)
 `<Leader>v`  | Paste from system clipboard (Mac OS X only)
 F1           | Line number toggle
