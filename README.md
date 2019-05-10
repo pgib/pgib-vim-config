@@ -48,7 +48,7 @@ Then apply the changes with `<Leader>sv`. (Shout-out to [@flyingoctopus](https:/
 
 --------------------
 
-Other highlights:
+## Notable Keys
 
 Key-combo    | Description
 ------------ | -----------
