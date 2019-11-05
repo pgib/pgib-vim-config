@@ -79,3 +79,6 @@
 [submodule "pack/tpope/start/dispatch"]
 	path = pack/tpope/start/dispatch
 	url = https://tpope.io/vim/dispatch.git
+[submodule "bundle/vim-rhubarb"]
+	path = bundle/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
